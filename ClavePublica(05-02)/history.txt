@@ -1,0 +1,389 @@
+Script iniciado en 2019-02-05 11:31:29-0500
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ gpf --version[K[K[K[K[K[K[K[K[K[K[Kg --vvers[K[K[K[Kersion 
+gpg (GnuPG) 2.2.4
+libgcrypt 1.8.1
+Copyright (C) 2017 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: /home/seguridad/.gnupg
+Algoritmos disponibles:
+Clave pública: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+Cifrado: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+         CAMELLIA128, CAMELLIA192, CAMELLIA256
+Resumen: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+Compresión: Sin comprimir, ZIP, ZLIB, BZIP2
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ gpg --gen-key
+gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Nota: Usa "gpg --full-generate-key" para el diálogo completo de generación de clave.
+
+GnuPG debe construir un ID de usuario para identificar su clave.
+
+Nombre y apellidos: 
+gpg: signal Interrupt caught ... exiting
+
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ gpg --full--gen[K[K[Kg[K[Kgenrate-key[K[K[K[K[K[K[K[Kerate-key 
+gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Por favor seleccione tipo de clave deseado:
+   (1) RSA y RSA (por defecto)
+   (2) DSA y ElGamal
+   (3) DSA (sólo firmar)
+   (4) RSA (sólo firmar)
+Su elección: 1
+las claves RSA pueden tener entre 1024 y 4096 bits de longitud.
+¿De qué tamaño quiere la clave? (3072) 
+El tamaño requerido es de 3072 bits
+Por favor, especifique el período de validez de la clave.
+         0 = la clave nunca caduca
+      <n>  = la clave caduca en n días
+      <n>w = la clave caduca en n semanas
+      <n>m = la clave caduca en n meses
+      <n>y = la clave caduca en n años
+¿Validez de la clave (0)? 0
+La clave nunca caduca
+¿Es correcto? (s/n) s
+
+GnuPG debe construir un ID de usuario para identificar su clave.
+
+Nombre y apellidos: Daniel Quintero
+Dirección de correo electrónico: discover_daniel@hotmailc[K.com
+Comentario: 
+Ha seleccionado este ID de usuario:
+    "Daniel Quintero <discover_daniel@hotmail.com>"
+
+¿Cambia (N)ombre, (C)omentario, (D)irección o (V)ale/(S)alir? l[Kv[Kv
+Es necesario generar muchos bytes aleatorios. Es una buena idea realizar
+alguna otra tarea (trabajar en otra ventana/consola, mover el ratón, usar
+la red y los discos) durante la generación de números primos. Esto da al
+generador de números aleatorios mayor oportunidad de recoger suficiente
+entropía.
+gpg: agent_genkey failed: Vida máxima
+Creación de la clave fallida: Vida máxima
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ gpg --full-generate-key 
+gpg (GnuPG) 2.2.4; Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Por favor seleccione tipo de clave deseado:
+   (1) RSA y RSA (por defecto)
+   (2) DSA y ElGamal
+   (3) DSA (sólo firmar)
+   (4) RSA (sólo firmar)
+Su elección: 1
+las claves RSA pueden tener entre 1024 y 4096 bits de longitud.
+¿De qué tamaño quiere la clave? (3072) 2048
+El tamaño requerido es de 2048 bits
+Por favor, especifique el período de validez de la clave.
+         0 = la clave nunca caduca
+      <n>  = la clave caduca en n días
+      <n>w = la clave caduca en n semanas
+      <n>m = la clave caduca en n meses
+      <n>y = la clave caduca en n años
+¿Validez de la clave (0)? 0
+La clave nunca caduca
+¿Es correcto? (s/n) s
+
+GnuPG debe construir un ID de usuario para identificar su clave.
+
+Nombre y apellidos: Daniel QUint[K[K[K[Kuintero
+Dirección de correo electrónico: discover_daniel@hotmail.com
+Comentario: 
+Ha seleccionado este ID de usuario:
+    "Daniel Quintero <discover_daniel@hotmail.com>"
+
+¿Cambia (N)ombre, (C)omentario, (D)irección o (V)ale/(S)alir? v
+Es necesario generar muchos bytes aleatorios. Es una buena idea realizar
+alguna otra tarea (trabajar en otra ventana/consola, mover el ratón, usar
+la red y los discos) durante la generación de números primos. Esto da al
+generador de números aleatorios mayor oportunidad de recoger suficiente
+entropía.
+Es necesario generar muchos bytes aleatorios. Es una buena idea realizar
+alguna otra tarea (trabajar en otra ventana/consola, mover el ratón, usar
+la red y los discos) durante la generación de números primos. Esto da al
+generador de números aleatorios mayor oportunidad de recoger suficiente
+entropía.
+gpg: clave DD2EF8ED275A58AB marcada como de confianza absoluta
+gpg: creado el directorio '/home/seguridad/.gnupg/openpgp-revocs.d'
+gpg: certificado de revocación guardado como '/home/seguridad/.gnupg/openpgp-revocs.d/F74DB32A45692703D16B4C4FDD2EF8ED275A58AB.rev'
+claves pública y secreta creadas y firmadas.
+
+pub   rsa2048 2019-02-05 [SC]
+      F74DB32A45692703D16B4C4FDD2EF8ED275A58AB
+uid                      Daniel Quintero <discover_daniel@hotmail.com>
+sub   rsa2048 2019-02-05 [E]
+
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ gpg --exoirt -a>[K > c[K[Kcl[K[K clave-daniel.txt
+gpg: opción inválida "--exoirt"
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ gpg --exoirt -a > clave-daniel.txt[Kgpg --exoirt -a > clave-daniel.txt[1P[1P[1@p[1@o
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ ls -l
+total 53632
+-rw-r--r-- 1 seguridad seguridad       48 ene 31 12:03 cifrado1.bin
+-rw-r--r-- 1 seguridad seguridad       64 ene 31 12:13 cifrado4.bin
+-rw-r--r-- 1 seguridad seguridad       33 ene 31 12:32 cifrado5.bin
+-rw-r--r-- 1 seguridad seguridad     1761 feb  5 11:44 clave-daniel.txt
+drwxr-xr-x 2 seguridad seguridad     4096 ene 25 10:40 [0m[01;34mDescargas[0m
+drwxr-xr-x 2 seguridad seguridad     4096 ene 25 10:14 [01;34mDocumentos[0m
+drwxr-xr-x 3 seguridad seguridad     4096 feb  1 09:08 [01;34mEscritorio[0m
+-rw-r--r-- 1 seguridad seguridad     8980 abr 16  2018 examples.desktop
+-rw-r--r-- 1 seguridad seguridad 53780480 feb  5 11:40 historia2.txt
+-rw-r--r-- 1 seguridad seguridad     4096 feb  5 11:38 history.txt
+drwxr-xr-x 2 seguridad seguridad     4096 ene 25 10:14 [01;34mImágenes[0m
+-rw-r--r-- 1 seguridad seguridad        5 ene 31 12:48 mensaje1.txt
+-rw-r--r-- 1 seguridad seguridad        5 ene 31 12:43 mensaje2.txt
+drwxr-xr-x 2 seguridad seguridad     4096 ene 25 10:14 [01;34mMúsica[0m
+drwxr-xr-x 2 seguridad seguridad     4096 ene 25 10:14 [01;34mPlantillas[0m
+drwxr-xr-x 2 seguridad seguridad     4096 ene 25 10:14 [01;34mPúblico[0m
+-rw-r--r-- 1 seguridad seguridad       21 ene 31 11:59 salida1.txt
+-rw-r--r-- 1 seguridad seguridad       21 ene 31 11:39 texto1.txt
+-rw-r--r-- 1 seguridad seguridad   396146 ene 31 11:40 texto2.txt
+-rwxr-xr-x 1 seguridad seguridad   650296 ene 31 11:41 [01;32mtexto3.txt[0m
+-rw-r--r-- 1 seguridad seguridad       33 ene 31 12:11 texto4.txt
+drwxr-xr-x 2 seguridad seguridad     4096 ene 25 10:14 [01;34mVídeos[0m
+drwxr-xr-x 4 seguridad seguridad     4096 ene 30 08:04 [01;34mVMs[0m
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ less clave-daniel.txt 
+[?1049h[22;0;0t[?1h=-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQENBFxZvBsBCAC92Sv43B1AlumAvnboRPEvMwoeQzgE1hpMKzvOZ9N1pvNT6pKI
+4LdzUwvRGwrIsxg6qPwc8hekg2cvJxbdhSd6B+7JneY8WOjx3RkMudufoQJrXO4q
+s5ytVidRNfrqlnOFMNYSUYwru/AT0SlffgP6+JoX/jM4zq+MjEj6ZSXJYkwo9KCi
+cWAlUKcIPPlwxPt1tSfe9Ixbk+4vfTUl/o3q4tW92GoyDxd3HOmdYsAVeZDAExTK
+vK5ZXivuOpV1dnWP+hZKDYgdhx92VzBBsi6dgYapj24nKrwAPN0Y2FuRF1eqHSuG
+TTrLnjs76sox/uFyEVEuMdykZMAeIxbXpEYJABEBAAG0LURhbmllbCBRdWludGVy
+byA8ZGlzY292ZXJfZGFuaWVsQGhvdG1haWwuY29tPokBTgQTAQoAOBYhBPdNsypF
+aScD0WtMT90u+O0nWlirBQJcWbwbAhsDBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheA
+AAoJEN0u+O0nWlirbcsH/j9iFGO9swvfY4M0p1ZlxUnt7gepwfMvSBVVWneeLVZC
+ZCRaZzU7KrsjS4U2lYwP/ZzEWr3q8U8jBDj8fAF2AqTPRrngD4RpTXcJrSVVNImY
+OkyJjTcwdOGRYnn0A1Kh1fyHQcDY4fNrUptuFPYiC4jde2RmB4TggId2DD5Xt6qY
+Hh7r6ifclDk9Cv+91TGgsFsWK4L2TwudHsNQ6/4bYoE/x3pHWTgx00X2TMd6Uy3K
+ZIQDFPVYWXCcZKppx6MbXV3SnE6IXW4ZnqN9KNJBYaMF3+nJoPlxBn9UHDyUigaV
+fHxWkkYPUCKIWlp0fAIuZke/se04Q1H4pw5dPNrmaKG5AQ0EXFm8GwEIALqSlEL7
+L+ZznCLs8UYJDjd5c2GG+cCMmO3COyxgfIGP1ysUxHVzFfPwFnIppcRm7X7+SBUl
+2/72tk6fdk0QQjYSL41w8xLOsb6dAfXy+4oDDhFyIIumjk/WqX76vwcxk8FeRGRj
+RoPzpvOmuWL/BZUjdSn6uwjshEPn1WmPSB35QNNc+iKqPDNi0QCh/Xph3YddN/lR
+lFwrRDhe8wthiWhOuAlcqA3uJxnbR2Q33X5degyMSG6cVk6xqfK/CLnh0yqtONlF
+UtrWs4yIuEUV8SbA4XfJP2mv/p8el2uQCkFF7NN06fUul3TKZ5WeH2PXe5cmOJOJ
+Ap/YUefaUC4E+48AEQEAAYkBNgQYAQoAIBYhBPdNsypFaScD0WtMT90u+O0nWlir
+BQJcWbwbAhsMAAoJEN0u+O0nWlirnSIIAKU3S5WZpcL1XDSXJS8Oj1IYiZLubXRv
+[7mclave-daniel.txt[27m[K[K [KESCESC[KOO[KBB[KFY4uSjXvWRKq1WS1HrVH0Xwmuu9OHxVF2BHfCGCQD7M3+Dv4rQDJcUidkVceg9M6
+:[K[K [KESCESC[KOO[KBB[KqUCwVDiDUWij8OK6vnUTsuF6dBFSF2nEOHveW3BhVjAKYlakK6e/lNNdOVy6PL1L
+:[K[K [KESCESC[KOO[KBB[K4cV2e8hBtuK0P4yFeivP9sfAlOsXl0G2CgRP6zz7kLVhNSkiwDiZm9hohdT3h7Dd
+:[K[K [KESCESC[KOO[KBB[Kcg0Hdk4iVDb4e1hDnrjtbCXfMHjJrRZzu9zcJaP7nlytvHFP/PBq+nfrMc2URVk7
+:[K[K [KESCESC[KOO[KBB[KUV5B2nXaXh34iVbNa+nZBPEjufryNUllejgSMyB0ttUCXEqxahfHi+s=
+:[K[K [KESCESC[KOO[KBB[K=y/M1
+:[K[K [KESCESC[KOO[KBB[K-----END PGP PUBLIC KEY BLOCK-----
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[K::[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ ls
+cifrado1.bin      [0m[01;34mDocumentos[0m        [01;34mImágenes[0m      [01;34mPúblico[0m      texto4.txt
+cifrado4.bin      [01;34mEscritorio[0m        mensaje1.txt  salida1.txt  [01;34mVídeos[0m
+cifrado5.bin      examples.desktop  mensaje2.txt  texto1.txt   [01;34mVMs[0m
+clave-daniel.txt  historia2.txt     [01;34mMúsica[0m        texto2.txt
+[01;34mDescargas[0m         history.txt       [01;34mPlantillas[0m    [01;32mtexto3.txt[0m
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ mv clave-daniel.txt /ES[Ks[K[K[KEscritorio/
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ gpg[K[K[Kls
+cifrado1.bin  [0m[01;34mDocumentos[0m        history.txt   [01;34mMúsica[0m       texto1.txt  [01;34mVídeos[0m
+cifrado4.bin  [01;34mEscritorio[0m        [01;34mImágenes[0m      [01;34mPlantillas[0m   texto2.txt  [01;34mVMs[0m
+cifrado5.bin  examples.desktop  mensaje1.txt  [01;34mPúblico[0m      [01;32mtexto3.txt[0m
+[01;34mDescargas[0m     historia2.txt     mensaje2.txt  salida1.txt  texto4.txt
+]0;seguridad@admin1-Latitude-3490: ~[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~[00m$ cd Descargas/
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ l[Kgpg --import clc[Kave-js.txt 
+gpg: clave B615A6D75B64440E: clave pública "Jhoan Steven Delgado Villarreal <jsdelvil@outlook.com>" importada
+gpg: Cantidad total procesada: 1
+gpg:               importadas: 1
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ nano -[K[K[K[K[K[Kvi -enviar.txt
+VIM - Vi IMproved 8.0 (2016 Sep 12, compiled Apr 10 2018 21:31:58)
+Garbage after option argument: "-enviar.txt"
+More info with: "vim -h"
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ vi --enviar.txt
+VIM - Vi IMproved 8.0 (2016 Sep 12, compiled Apr 10 2018 21:31:58)
+Unknown option argument: "--enviar.txt"
+More info with: "vim -h"
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ nano -[Kenviar.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi enviar.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"enviar.txt" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[?25l[mk[?25h[?25l[?25h[?25lc[?25h[?25lc[?25h[?25l[?25h[?25l[?25h[?2004h[?25l[1;1H[K[1;1H[?25h[?25l[24;1H--No lines in buffer--[24;23H[K[1;1H[?25h[?25l[?25h[?25l[?25h[?2004l[?25ld[?25h[?25lc[?25h[?25ld[?25h[?25l[?25h[?25l[?25h[?2004h[?25l[1;2H[K[1;1H[?25h[?25lD[?25h[?25l[24;1H[97m[41mE35: No previous regular expression[1;1H[?25h[?2004l[?25l[mnD[?25h[?25loD[?25h[?25lsD[?25h[?25l D[?25h[?25lvD[?25h[?25l[?25h[?25lq[?25h[?25luD[?25h[?25leD[?25h[?25l D[?25h[?25ldD[?25h[?25liD[?25h[?25lcD[?25h[?25leD[?25h[?25l D[?25h[?25lmD[?25h[?25loD[?25h[?25lsD[?25h[?25ltD[?25h[?25lrD[?25h[?25liD[?25h[?25lcD[?25h[?25loD[?25h[?25l.D[?25h[?25l[1;23H[K[2;1HD[2;2H[K[2;1H[?25h[?25ltD[?25h[?25loD[?25h[?25ldD[?25h[?25loD[?25h[?25l D[?25h[?25lmD[?25h[?25leD[?25h[?25llD[?25h[?25loD[?25h[?25l D[?25h[?25loD[?25h[?25l D[?25h[?25lnD[?25h[?25loD[?25h[?25l?D[?25h[?25l[2;16H[K[3;1HD[3;2H[K[3;1H[?25h[?25l[3;1H[K[4;1HD[4;2H[K[4;1H[?25h[?25lsD[?25h[?25laD[?25h[?25llD[?25h[?25luD[?25h[?25ldD[?25h[?25loD[?25h[?25lsD[?25h[?25l D[?25h[?25lcD[?25h[?25loD[?25h[?25lrD[?25h[?25ldD[?25h[?25liD[?25h[?25laD[?25h[?25llD[?25h[?25leD[?25h[?25lsD[?25h[?2004h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"enviar.txt" [New File] 4 lines, 59 characters written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ cat enviar.txt 
+nos que dice mostrico.
+todo melo o no?
+
+saludos cordialesD
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ gpg status
+gpg: ADVERTENCIA: no se ha proporcionado ninguna orden. Intentando adivinar lo que quieres...
+gpg: no se puede abrir 'status'
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ gpg status[K[K[K[K[K[K[K[Kg .[K--import
+^C
+gpg: signal Interrupt caught ... exiting
+
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ gpg --import --li
+--limit-card-insert-tries  --list-packets
+--list-config              --list-public-keys
+--list-gcrypt-config       --list-secret-keys
+--list-key                 --list-sig
+--list-keys                --list-signatures
+--list-only                --list-sigs
+--list-options             --list-trustdb
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ gpg --import --list-config 
+gpg: órdenes incompatibles
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ gpg --import --list-config [K[K[K[K[K[K[K[K[K[K[K[K[Kconfig
+gpg: órdenes incompatibles
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ gpg --list-key
+gpg: comprobando base de datos de confianza
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: nivel: 0  validez:   1  firmada:   0  confianza: 0-, 0q, 0n, 0m, 0f, 1u
+/home/seguridad/.gnupg/pubring.kbx
+----------------------------------
+pub   rsa2048 2019-02-05 [SC]
+      F74DB32A45692703D16B4C4FDD2EF8ED275A58AB
+uid        [  absoluta ] Daniel Quintero <discover_daniel@hotmail.com>
+sub   rsa2048 2019-02-05 [E]
+
+pub   rsa3072 2019-02-05 [SC]
+      7AC3EBCC70DFA86052B2239EB615A6D75B64440E
+uid        [desconocida] Jhoan Steven Delgado Villarreal <jsdelvil@outlook.com>
+sub   rsa3072 2019-02-05 [E]
+
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ gpg --list-keys
+/home/seguridad/.gnupg/pubring.kbx
+----------------------------------
+pub   rsa2048 2019-02-05 [SC]
+      F74DB32A45692703D16B4C4FDD2EF8ED275A58AB
+uid        [  absoluta ] Daniel Quintero <discover_daniel@hotmail.com>
+sub   rsa2048 2019-02-05 [E]
+
+pub   rsa3072 2019-02-05 [SC]
+      7AC3EBCC70DFA86052B2239EB615A6D75B64440E
+uid        [desconocida] Jhoan Steven Delgado Villarreal <jsdelvil@outlook.com>
+sub   rsa3072 2019-02-05 [E]
+
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ gpg --encrypt -a -r jsdelvil@outlook..com enviar.txt 
+gpg: 92B84B8298242892: No hay seguridad de que esta clave pertenezca realmente
+al usuario que se nombra
+sub  rsa3072/92B84B8298242892 2019-02-05 Jhoan Steven Delgado Villarreal <jsdelvil@outlook.com>
+ Huella clave primaria: 7AC3 EBCC 70DF A860 52B2  239E B615 A6D7 5B64 440E
+      Huella de subclave: 72BC 8C5A 321E 0274 C85C  725C 92B8 4B82 9824 2892
+
+No es seguro que la clave pertenezca a la persona que se nombra en el
+identificador de usuario. Si *realmente* sabe lo que está haciendo,
+puede contestar sí a la siguiente pregunta.
+
+¿Usar esta clave de todas formas? (s/N) s
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ cat enviar-txt.as[K[K[K[K[K[K[K.txt.asc 
+-----BEGIN PGP MESSAGE-----
+
+hQGMA5K4S4KYJCiSAQv/QzNsKcHHxwhC3/GdGag1jWEu3E5SgglQ9wYr45lSZEkO
+t59FVzuZOFNJ9CAzWQcCEBpw7YcGJ360MGWk1hzNc+kkJIofEAowZwUYJD1W6g2r
+sUvT4emns8zpd3qJjf7rrdesU8pTkDsT+6YabAV8Djr5en9s9I+BX9E8mVyF/XsO
+ZfsM7j6mp5C2k4UsxAQi4TXF/eSn7z/5QLlps4HXrmGbpleOXMdU5o1FL+9tVuza
+VFrTfTtniyhqevParubC9x2/q1JTnD5zD+C+tx2/UhZkmgXivmeKQLPSnLmgd/W6
+fnkBbeu90/oFXWegQ0vqMG+nF/ShTZFlArpeQDXNjgpZvvjm1XQqxkt/NHc+Pu3Q
+KUOAl+SMK1OCWJIbxc2WMCmBJW3Tnj0RBdipfg0MmT2Pi0WGPKA/fvq7OrBHnfMS
+EvK5NPjIRYDzCamWmohWiAxuz3bBm20UkKchkYqYaYNKkRxVwJD3eIB1TVdPn+82
+RTWXO0b44GUd7DmO636H0n8BQuj7KtHYPipnjqBO8MsnUt/9RjscAQ2qweZLxaX5
+Rsxsh7QYY+a/7heaAxtGL+9ZW3e+ivYj56yPYmMSPNz57cvNjDaUQdM6u/ERPhHI
+dX7Cfg0R52/o99rtTHsjsDklZBF/z0l2wLXKAAlmL5+LbGDsReS/psJBSKQH4H6n
+=D0np
+-----END PGP MESSAGE-----
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ cat enviar.txt.asc [Kvi enviar.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"enviar.txt" 4 lines, 59 characters[1;1Hnos que dice mostrico.
+todo melo o no?
+
+saludos cordialesD
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[?2004h[?2004l[?25l[1;23r[m[1;1H[L[1;24r[1;1HB[24;1H[K[1;2H[?25h[?2004h[?2004l[?25l[1;23r[1;1H[L[1;24r[1;1HB[?25h[?25l[?25h[?2004h[?25l[1;1H[K[1;1H[?25h
+[?25l[2;1H[K[2;1H[?25h
+[2;1H[1;1H[?2004l[?2004h
+
+[1;1H[?25l[?25h[?2004l[?25l[1;23r[23;1H
+[1;24r[1;1Hg[23;1H[94m~                                                                               [1;2H[?25h[?25l[mg[?25h[?25lh[?25h[?25lg[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?2004h[?25l[1;2H[K[1;1H[?25h[?25lG[?25h[?25l[1;1H[K[1;1H[?25h
+
+
+
+[4;1H[3;1H[2;1H[?25los que dice mostrico.[2;22H[K[2;1H[?25h[?25ls que dice mostrico.[2;21H[K[2;1H[?25h[?25l que dice mostrico.[2;20H[K[2;1H[?25h[?25lque dice mostrico.[2;19H[K[2;1H[?25h[?25lue dice mostrico.[2;18H[K[2;1H[?25h[?25le dice mostrico.[2;17H[K[2;1H[?25h[?25l dice mostrico.[2;16H[K[2;1H[?25h[?25ldice mostrico.[2;15H[K[2;1H[?25h[?25lice mostrico.[2;14H[K[2;1H[?25h[?25lce mostrico.[2;13H[K[2;1H[?25h[?25le mostrico.[2;12H[K[2;1H[?25h[?25l mostrico.[2;11H[K[2;1H[?25h[?25lmostrico.[2;10H[K[2;1H[?25h[?25lostrico.[2;9H[K[2;1H[?25h[?25lstrico.[2;8H[K[2;1H[?25h[?25ltrico.[2;7H[K[2;1H[?25h[?25lrico.[2;6H[K[2;1H[?25h[?25lico.[2;5H[K[2;1H[?25h[?25lco.[2;4H[K[2;1H[?25h[?25lo.[2;3H[K[2;1H[?25h[?25l.[2;2H[K[2;1H[?25h[?25l[2;1H[K[2;1H[?25h
+[?25lodo melo o no?[3;15H[K[3;1H[?25h[?25ldo melo o no?[3;14H[K[3;1H[?25h[?25lo melo o no?[3;13H[K[3;1H[?25h[?25l melo o no?[3;12H[K[3;1H[?25h[?25lmelo o no?[3;11H[K[3;1H[?25h[?25lelo o no?[3;10H[K[3;1H[?25h[?25llo o no?[3;9H[K[3;1H[?25h[?25lo o no?[3;8H[K[3;1H[?25h[?25l o no?[3;7H[K[3;1H[?25h[?25lo no?[3;6H[K[3;1H[?25h[?25l no?[3;5H[K[3;1H[?25h[?25lno?[3;4H[K[3;1H[?25h[?25lo?[3;3H[K[3;1H[?25h[?25l?[3;2H[K[3;1H[?25h[?25l[3;1H[K[3;1H[?25h
+
+[?25laludos cordialesD[5;18H[K[5;1H[?25h[?25lludos cordialesD[5;17H[K[5;1H[?25h[?25ludos cordialesD[5;16H[K[5;1H[?25h[?25ldos cordialesD[5;15H[K[5;1H[?25h[?25los cordialesD[5;14H[K[5;1H[?25h[?25ls cordialesD[5;13H[K[5;1H[?25h[?25l cordialesD[5;12H[K[5;1H[?25h[?25lcordialesD[5;11H[K[5;1H[?25h[?25lordialesD[5;10H[K[5;1H[?25h[?25lrdialesD[5;9H[K[5;1H[?25h[?25ldialesD[5;8H[K[5;1H[?25h[?25lialesD[5;7H[K[5;1H[?25h[?25lalesD[5;6H[K[5;1H[?25h[?25llesD[5;5H[K[5;1H[?25h[?25lesD[5;4H[K[5;1H[?25h[?25lsD[5;3H[K[5;1H[?25h[?25lD[5;2H[K[5;1H[?25h[?25l[5;1H[K[5;1H[?25h[4;1H
+[4;1H[3;1H[?25l[24;1H[1mrecording @u[3;1H[?25h
+
+[?25l[m[24;1H[K[5;1H[?25h[?25l[24;1H[1mrecording @i[5;1H[?25h[?25l[m[24;1H[K[5;1H[?25h[?25l[24;1H1 change; before #61  6 seconds ago[5;1HD[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[?2004h[5;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hq![?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[?1049l[23;0;0t]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ vi enviar2.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"enviar2.txt" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[?25l[mq[?25h[?25lu[?25h[?25le[?25h[?25l [?25h[?25ld[?25h[?25li[?25h[?25lc[?25h[?25le[?25h[?25l?[?25h[?25l [?25h[?25lc[?25h[?25lo[?25h[?25lm[?25h[?25lo[?25h[?25l [?25h[?25lv[?25h[?25la[?25h[?25ln[?25h[?25l [?25h[?25ll[?25h[?25le[?25h[?25ls[?25h[?25l [?25h[?25lj[?25h[?25li[?25h[?25lv[?25h[?25l[?25h[?25l[?25h[?25le[?25h[?2004h[?25l[1;26H[K[1;25H[?25h[?2004l[?25l[1;23r[1;1H[L[1;24r[1;1HC[24;1H[K[1;2H[?25h[?25l[?25h[?2004h[?25l[1;1H[K[1;1H[?25h
+que dice? como van les j[?25l[?25h[?25l[?25h[?25l[?25h[?25l[47me[?25h[?25l[mje[?25hj[?2004l[?25lve[?25h[?25l[?25h[?2004h[?25le[2;26H[K[2;24H[?25h[?25lJ[?25h[?25l[?25h[?25l[47me[?25h[?25l[?25h[?2004l[?25l[mee[?25h[?25lve[?25h[?25lie[?25h[?25lte[?25h[?25lae[?25h[?25lse[?25h[?2004h[?25lS[?25h[?25l[2;31H[K[2;30H[?25h[?25l[24;1H?[?2004h[?25h
+[?25l[97m[41mE35: No previous regular expression[m
+[32mPress ENTER or type command to continue[m[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"enviar2.txt" [New File] 2 lines, 32 characters written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ cat enviar2.txt 
+
+que dice? como van les JevitaS
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ cat enviar2.txt [2Pvi enviar2.txt[1P.txtcat enviar.txt.asc gpg --encrypt -a -r jsdelvil@outlook..com enviar.txt [1@2
+gpg: 92B84B8298242892: No hay seguridad de que esta clave pertenezca realmente
+al usuario que se nombra
+sub  rsa3072/92B84B8298242892 2019-02-05 Jhoan Steven Delgado Villarreal <jsdelvil@outlook.com>
+ Huella clave primaria: 7AC3 EBCC 70DF A860 52B2  239E B615 A6D7 5B64 440E
+      Huella de subclave: 72BC 8C5A 321E 0274 C85C  725C 92B8 4B82 9824 2892
+
+No es seguro que la clave pertenezca a la persona que se nombra en el
+identificador de usuario. Si *realmente* sabe lo que está haciendo,
+puede contestar sí a la siguiente pregunta.
+
+¿Usar esta clave de todas formas? (s/N) s
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ ls -l
+total 145020
+-rw-rw-r-- 1 seguridad seguridad      2468 feb  5 11:49 clave-js.txt
+-rw-r--r-- 1 seguridad seguridad        32 feb  5 12:11 enviar2.txt
+-rw-r--r-- 1 seguridad seguridad       744 feb  5 12:11 enviar2.txt.asc
+-rw-r--r-- 1 seguridad seguridad        59 feb  5 11:55 enviar.txt
+-rw-r--r-- 1 seguridad seguridad       776 feb  5 11:59 enviar.txt.asc
+-rw-rw-r-- 1 seguridad seguridad       642 feb  5 12:03 file.asc
+-rwxrwxr-x 1 seguridad seguridad 148464193 ene 25 10:40 [0m[01;32mVMware-Player-15.0.2-10952284.x86_64.bundle[0m
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ ls -lgpg --encrypt -a -r jsdelvil@outlook..com enviar2.txt [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P f i [1P [1P [K[1P [1P [1P [1P [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [K[1P [1P [K[1P [1P [K[1P [1P [1P [1P [1P [1P [1P [1P [1P [K[1P [1P [1P c a t [C f i r mado.txt 
+ESte es un nuevo mensaje. Usted verá que hace con él. Lo está siguiendo la DEA. 
+
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ cat mensa[K[K[K[K[Kenviar.txt
+nos que dice mostrico.
+todo melo o no?
+
+saludos cordialesD
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ cat enviar.txtfirmado.txt ls -l[Kgpg --encrypt -a -r jsdelvil@outlook..com enviar2.txt [K[K[K[K[K[K[K[K[K[K[K[Kfirmado.txt.asc 
+gpg: 92B84B8298242892: No hay seguridad de que esta clave pertenezca realmente
+al usuario que se nombra
+sub  rsa3072/92B84B8298242892 2019-02-05 Jhoan Steven Delgado Villarreal <jsdelvil@outlook.com>
+ Huella clave primaria: 7AC3 EBCC 70DF A860 52B2  239E B615 A6D7 5B64 440E
+      Huella de subclave: 72BC 8C5A 321E 0274 C85C  725C 92B8 4B82 9824 2892
+
+No es seguro que la clave pertenezca a la persona que se nombra en el
+identificador de usuario. Si *realmente* sabe lo que está haciendo,
+puede contestar sí a la siguiente pregunta.
+
+¿Usar esta clave de todas formas? (s/N) s
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ ls -l
+total 145032
+-rw-rw-r-- 1 seguridad seguridad      2468 feb  5 11:49 clave-js.txt
+-rw-r--r-- 1 seguridad seguridad        32 feb  5 12:11 enviar2.txt
+-rw-r--r-- 1 seguridad seguridad       744 feb  5 12:11 enviar2.txt.asc
+-rw-r--r-- 1 seguridad seguridad        59 feb  5 11:55 enviar.txt
+-rw-r--r-- 1 seguridad seguridad       776 feb  5 11:59 enviar.txt.asc
+-rw-rw-r-- 1 seguridad seguridad       642 feb  5 12:03 file.asc
+-rw-r--r-- 1 seguridad seguridad        85 feb  5 12:13 firmado.txt
+-rw-r--r-- 1 seguridad seguridad       622 feb  5 12:15 firmado.txt.asc
+-rw-r--r-- 1 seguridad seguridad      1370 feb  5 12:19 firmado.txt.asc.asc
+-rwxrwxr-x 1 seguridad seguridad 148464193 ene 25 10:40 [0m[01;32mVMware-Player-15.0.2-10952284.x86_64.bundle[0m
+]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ ls -lgpg --encrypt -a -r jsdelvil@outlook..com firmado.txt.asc [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [22Pcat enviar.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfirmado.txt ls -l[Kgpg --encrypt -a -r jsdelvil@outlook..com enviar2.txt [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [20Pcat enviar2.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pvi enviar2.txt[1P.txtcat enviar.txt.asc gpg --encrypt -a -r jsdelvil@outlook..com enviar.txt [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [C[C[C[C[C[Clist-keys[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cencrypt -a -r jsdelvil@outlook..com enviar.txt [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [C[C[C[C[C[Clist-keys[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cencrypt -a -r jsdelvil@outlook..com enviar.txt [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [17Pcat enviar.txt.asc 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pvi enviar.txt2.txtcat enviar2.txt gpg --encrypt -a -r jsdelvil@outlook..com enviar2.txt [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat firmado.txt [2Penviar.txtgpg --encrypt -a -r jsdelvil@outlook..com firmado.txt.asc [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kls -lgpg --encrypt -a -r jsdelvil@outlook..com firmado.txt.asc [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [22Pcat enviar.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfirmado.txt ls -l[Kgpg --encrypt -a -r jsdelvil@outlook..com enviar2.txt [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [20Pcat enviar2.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pvi enviar2.txt[1P.txtcat enviar.txt.asc gpg --encrypt -a -r jsdelvil@outlook..com enviar.txt [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [C[C[C[C[C[Clist-keys[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksencrypt -a -r jsdelvil@outlook..com enviar.txt [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [17Pcat enviar.txt.asc 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pvi enviar.txt2.txtcat enviar2.txt gpg --encrypt -a -r jsdelvil@outlook..com enviar2.txt [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat firmado.txt [2Penviar.txtgpg --encrypt -a -r jsdelvil@outlook..com firmado.txt.asc [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kls -l[Kls -lgpg --encrypt -a -r jsdelvil@outlook..com firmado.txt.asc [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [22Pcat enviar.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfirmado.txt ls -l[Kgpg --encrypt -a -r jsdelvil@outlook..com enviar2.txt [A]0;seguridad@admin1-Latitude-3490: ~/Descargas[01;32mseguridad@admin1-Latitude-3490[00m:[01;34m~/Descargas[00m$ [20Pcat enviar2.txt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script terminado en 2019-02-05 12:41:31-0500
